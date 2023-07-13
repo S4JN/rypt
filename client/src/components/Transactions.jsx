@@ -19,11 +19,11 @@ const TransactionsCard = ({ addressTo, addressFrom, timestamp, message, keyword,
     '>
       <div className='flex flex-col items-center w-full mt-3'>
         <div className=' w-full mb-6 p-2'>
-          <a href={`https://goerli.etherscan.io/address/${addressFrom}`} target="_blank" rel='noopener noreferrer'>
+          <a href={`https://sepolia.etherscan.io/address/${addressFrom}`} target="_blank" rel='noopener noreferrer'>
             <p className='text-white tex-base'>From: {shortenAddress(addressFrom)}</p>
           </a>
 
-          <a href={`https://goerli.etherscan.io/address/${addressTo}`} target="_blank" rel='noopener noreferrer'>
+          <a href={`https://sepolia.etherscan.io/address/${addressTo}`} target="_blank" rel='noopener noreferrer'>
             <p className='text-white tex-base'>To: {shortenAddress(addressTo)}</p>
           </a>
 
